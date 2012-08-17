@@ -239,7 +239,7 @@ public class XStreamPersister {
     /**
      * Constructs the persister and underlying xstream specifying the stream driver explicitly.
      */
-    protected XStreamPersister(HierarchicalStreamDriver streamDriver) {
+    public XStreamPersister(HierarchicalStreamDriver streamDriver) {
         
         //control the order in which fields are sorted
         SortableFieldKeySorter sorter = new SortableFieldKeySorter();
